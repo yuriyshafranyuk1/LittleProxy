@@ -15,4 +15,4 @@ lib/
 LittleProxy.pro
 /bin
 *.jks
-performance/site/
+performance/site/*
