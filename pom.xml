@@ -520,6 +520,28 @@
             </plugin>
 
             <plugin>
+                <groupId>com.amashchenko.maven.plugin</groupId>
+                <artifactId>gitflow-maven-plugin</artifactId>
+                <version>1.8.0</version>
+                <configuration>
+                    <verbose>true</verbose>
+                    <versionDigitToIncrement>2</versionDigitToIncrement>
+
+                    <gitFlowConfig>
+                        <productionBranch>master</productionBranch>
+                        <developmentBranch>add-jgitflow</developmentBranch>
+                        <releaseBranchPrefix>release-</releaseBranchPrefix>
+                        <versionTagPrefix></versionTagPrefix>
+                    </gitFlowConfig>
+
+                    <commitMessages>
+                        <releaseStartMessage>update versions  f${project.version}or release</releaseStartMessage>
+                        <releaseFinishMessage>update for next development version ${project.version}</releaseFinishMessage>
+                    </commitMessages>
+                </configuration>
+            </plugin>
+
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
                 <version>2.4.3</version>
