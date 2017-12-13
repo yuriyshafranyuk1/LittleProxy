@@ -563,9 +563,11 @@
                 <configuration>
                     <verbose>true</verbose>
                     <versionDigitToIncrement>2</versionDigitToIncrement>
+                    <releaseRebase>true</releaseRebase>
+                    <pushRemote>false</pushRemote>
 
                     <gitFlowConfig>
-                        <productionBranch>vgs-edition</productionBranch>
+                        <productionBranch>gitflow-add</productionBranch>
                         <developmentBranch>gitflow-add</developmentBranch>
                         <releaseBranchPrefix>release-</releaseBranchPrefix>
                         <versionTagPrefix></versionTagPrefix>
