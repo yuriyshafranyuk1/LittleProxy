@@ -528,8 +528,8 @@
                     <versionDigitToIncrement>2</versionDigitToIncrement>
 
                     <gitFlowConfig>
-                        <productionBranch>master</productionBranch>
-                        <developmentBranch>add-jgitflow</developmentBranch>
+                        <productionBranch>vgs-edition</productionBranch>
+                        <developmentBranch>gitflow-add</developmentBranch>
                         <releaseBranchPrefix>release-</releaseBranchPrefix>
                         <versionTagPrefix></versionTagPrefix>
                     </gitFlowConfig>
