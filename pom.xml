@@ -565,6 +565,7 @@
                     <versionDigitToIncrement>2</versionDigitToIncrement>
                     <releaseRebase>true</releaseRebase>
                     <pushRemote>false</pushRemote>
+                    <skipTestProject>true</skipTestProject>
 
                     <gitFlowConfig>
                         <productionBranch>gitflow-add</productionBranch>
