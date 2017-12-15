@@ -532,7 +532,6 @@
 
                     <flowInitContext>
                         <developBranchName>versioning-test</developBranchName>
-                        <masterBranchName>versioning-test</masterBranchName>
                         <versionTagPrefix/>
                         <releaseBranchPrefix>release-</releaseBranchPrefix>
                     </flowInitContext>
