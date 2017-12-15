@@ -528,6 +528,7 @@
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <allowUntracked>true</allowUntracked>
                     <noDeploy>true</noDeploy>
+                    <noReleaseBuild>true</noReleaseBuild>
 
                     <flowInitContext>
                         <developBranchName>versioning-test</developBranchName>
