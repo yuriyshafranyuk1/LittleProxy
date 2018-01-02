@@ -565,8 +565,8 @@
                     <skipTestProject>true</skipTestProject>
                     <allowSnapshots>true</allowSnapshots>
                     <gitFlowConfig>
-                        <productionBranch>versioning-test</productionBranch>
-                        <developmentBranch>versioning-test</developmentBranch>
+                        <productionBranch>vgs-edition</productionBranch>
+                        <developmentBranch>vgs-edition</developmentBranch>
                         <releaseBranchPrefix>release-</releaseBranchPrefix>
                         <versionTagPrefix></versionTagPrefix>
                     </gitFlowConfig>
