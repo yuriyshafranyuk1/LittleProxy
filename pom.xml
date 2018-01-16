@@ -569,6 +569,9 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>buildnumber-maven-plugin</artifactId>
                 <version>1.4</version>
+                <configuration>
+                    <shortRevisionLength>7</shortRevisionLength>
+                </configuration>
                 <executions>
                     <execution>
                         <goals>
@@ -588,6 +591,7 @@
                             <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
                         </manifest>
                         <manifestEntries>
+                            <VGS-LittleProxy-Version>${version}</VGS-LittleProxy-Version>
                             <VGS-LittleProxy-Revision>${buildNumber}</VGS-LittleProxy-Revision>
                         </manifestEntries>
                     </archive>
